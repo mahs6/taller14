@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+
+<style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          grid-gap: 10px;
+          
+          padding: 10px;
+          height: 900px;
+          flex-direction: column;
+          font-family: arial,sans-serif;
+        }
+        
+        .grid-container > div {
+          background-color: white;
+          margin: 5px;
+          padding: 20px ;
+          
+          
+        }
+        
+        .item1 {
+          background-color: white;
+          grid-row-start: 1;
+          grid-row-end: 1;
+          grid-column-start: 1;
+          grid-column-end: 4;
+          
+        }
+        
+        .item2 {
+          
+          grid-row-start: 2;
+          grid-row-end: 5;
+          grid-column-start: 1;
+          grid-column-end: 4;
+          height: 650px;
+          text-align: center;
+        }
+        
+        .item3 {
+          background-color: slategrey;
+          grid-row-start: 5;
+          grid-row-end: 5;
+          grid-column-start: 1;
+          grid-column-end: 4;
+          font-size: 14px;
+          color: #5f6368;
+          padding: 20px;
+        }
+
+        .buscador{
+            width: 700px;
+            height: 50px;
+            border-radius: 15px;
+        }
+
+        .button {
+            background-color:rgb(190, 190, 190);
+            font-size:20px;
+            color:black;
+            padding: 10px;
+            border-radius: 10px;
+            margin:20px;
+        }
+
+        .logo{
+            width: 50px;
+            position: fixed;
+            top: 30px;
+            right: 10px;
+        }
+
+        .logo1{
+          width: 25px;
+          margin: 5px;
+        }
+
+        
+
+        .links{
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            color: #5f6368;
+            padding-left: 15px;
+        }
+</style>
+</head>
+<body>
+        
+        
+        
+<div class="grid-container">
+
+        <div class="item1">
+           <a target="_blank" class="links" href="https://www.google.com/intl/es-419/gmail/about/" style="padding-left: 980px;">Gmail</a>
+           <a target="_blank" class="links" href="https://www.google.com.co/imghp?hl=es-419&tab=wi&ogbl">Imagenes</a>
+           <img src="img/apps.png" class="logo1">
+           <img src="img/user.png" class="logo1">
+        </div>
+        
+        <div class="item2">
+            <br><br>
+            <img src="img/Google.png" style="width: 500px;">
+            <br><br>
+            <input class="buscador" type="text" placeholder="">
+            <br><br>
+            <a target="_blank" href="https://www.google.com/" class="button">Buscar con Google</a>
+            <a target="_blank" href="https://www.google.com/doodles/" class="button">Me siento con suerte</a>
+            <br>
+
+            
+                
+           
+        </div>
+          <div class="item3">
+            Colombia
+          <hr width="100%">
+          <a target="_blank" class="links" href="https://ads.google.com/intl/es-419_co/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" style="padding-left: 1px;">Publicidad </a>            
+          <a target="_blank" class="links" href="https://smallbusiness.withgoogle.com/intl/es-419_co/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CO#!/">Negocios </a>         
+          <a target="_blank" class="links" href="https://about.google/?utm_source=google-CO&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google </a>  
+          <a target="_blank" class="links" href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>         
+          <a target="_blank" class="links" href="https://policies.google.com/privacy?fg=1" style="padding-left: 450px;">Privacidad</a>
+          <a target="_blank" class="links" href="https://policies.google.com/terms?fg=1">Condiciones</a>
+          <a target="_blank" class="links" href="">Preferencias</a> 
+        </div>
+          
+               
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
